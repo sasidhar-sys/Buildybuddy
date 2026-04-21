@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BuildyBuddy — Build Without Code 🚀</title>
+  <meta name="description" content="BuildyBuddy builds powerful websites, tools, and automations without coding. Fast, affordable, and efficient."/>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+<!-- Scroll Progress Bar -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- Mouse Glow Follower -->
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <div class="container nav-inner">
+    <a href="#" class="logo">⚡ <span>BuildyBuddy</span></a>
+    <div class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#showcase">Showcase</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact" class="nav-cta">Get Started</a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero" id="home">
+  <div class="hero-particles" id="heroParticles"></div>
+  <div class="hero-glow glow-1"></div>
+  <div class="hero-glow glow-2"></div>
+  <div class="floating-shapes">
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+    <div class="shape shape-3"></div>
+    <div class="shape shape-4"></div>
+  </div>
+  <div class="container">
+    <div class="hero-inner">
+      <div class="hero-badge reveal"><i class="fa-solid fa-sparkles"></i> No-Code Solutions</div>
+      <h1 class="reveal">Build Without<br><span class="gradient-text">Code</span> 🚀</h1>
+      <p class="reveal">We create powerful <span class="typing-wrapper"><span class="typing-text" id="typingText"></span><span class="typing-cursor">|</span></span></p>
+      <div class="hero-btns reveal">
+        <a href="#contact" class="btn btn-primary btn-glow-pulse">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="https://www.instagram.com/buildybuddy?igsh=OWMxZTAybjNwcXlz&utm_source=qr" target="_blank" class="btn btn-ghost">DM Us <i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <div class="hero-trust reveal">
+        <div class="trust-item"><i class="fa-solid fa-shield-halved"></i> Reliable</div>
+        <div class="trust-item"><i class="fa-solid fa-bolt"></i> Fast Delivery</div>
+        <div class="trust-item"><i class="fa-solid fa-heart"></i> Passion-Driven</div>
+      </div>
+    </div>
+  </div>
+  <a href="#about" class="scroll-indicator"><i class="fa-solid fa-chevron-down"></i></a>
+</header>
+
+<!-- TEXT MARQUEE BANNER -->
+<div class="marquee-banner">
+  <div class="marquee-track-fast">
+    <span>✦ NO CODE</span><span>✦ FAST DELIVERY</span><span>✦ MODERN DESIGN</span><span>✦ AFFORDABLE</span><span>✦ BEGINNER FRIENDLY</span><span>✦ AUTOMATIONS</span><span>✦ LANDING PAGES</span><span>✦ WEBSITES</span>
+    <span>✦ NO CODE</span><span>✦ FAST DELIVERY</span><span>✦ MODERN DESIGN</span><span>✦ AFFORDABLE</span><span>✦ BEGINNER FRIENDLY</span><span>✦ AUTOMATIONS</span><span>✦ LANDING PAGES</span><span>✦ WEBSITES</span>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section class="light-alt-bg" id="about">
+  <div class="container">
+    <h2 class="section-title reveal" style="color:var(--text-light)">Who We <span class="gradient-text">Are</span></h2>
+    <div class="about-inner reveal">
+      <p>BuildyBuddy helps businesses and individuals build digital products using no-code tools. We're passionate about making technology accessible — no coding knowledge required.</p>
+    </div>
+    <div class="about-values reveal">
+      <div class="value-chip"><i class="fa-solid fa-rocket"></i> Fast & Efficient</div>
+      <div class="value-chip"><i class="fa-solid fa-piggy-bank"></i> Budget Friendly</div>
+      <div class="value-chip"><i class="fa-solid fa-palette"></i> Beautiful Design</div>
+      <div class="value-chip"><i class="fa-solid fa-comments"></i> Clear Communication</div>
+    </div>
+    <!-- Animated Counters -->
+    <div class="counters reveal">
+      <div class="counter-item">
+        <span class="counter-num" data-target="48">0</span><span class="counter-unit">hrs</span>
+        <span class="counter-label">Avg Turnaround</span>
+      </div>
+      <div class="counter-item">
+        <span class="counter-num" data-target="100">0</span><span class="counter-unit">%</span>
+        <span class="counter-label">Dedication</span>
+      </div>
+      <div class="counter-item">
+        <span class="counter-num" data-target="24">0</span><span class="counter-unit">/7</span>
+        <span class="counter-label">Availability</span>
+      </div>
+      <div class="counter-item">
+        <span class="counter-num" data-target="0">0</span><span class="counter-unit"> lines</span>
+        <span class="counter-label">Of Code Needed</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="dark-bg-2" id="services">
+  <div class="container">
+    <h2 class="section-title reveal">Our <span class="gradient-text">Services</span></h2>
+    <p class="section-sub reveal">Everything you need to launch and grow your digital presence — rapidly.</p>
+    <div class="grid-4">
+      <div class="svc-card tilt-card reveal reveal-delay-1">
+        <div class="card-shine"></div>
+        <div class="svc-icon"><i class="fa-solid fa-laptop-code"></i></div>
+        <h3>No-Code Websites</h3>
+        <p>Beautiful, fully-functional websites built visually with lightning speed.</p>
+        <div class="svc-tools">Webflow · Framer · Wix</div>
+      </div>
+      <div class="svc-card tilt-card reveal reveal-delay-2">
+        <div class="card-shine"></div>
+        <div class="svc-icon"><i class="fa-solid fa-robot"></i></div>
+        <h3>Automation Setup</h3>
+        <p>Connect your apps and automate workflows to save hours every week.</p>
+        <div class="svc-tools">Zapier · Make · n8n</div>
+      </div>
+      <div class="svc-card tilt-card reveal reveal-delay-3">
+        <div class="card-shine"></div>
+        <div class="svc-icon"><i class="fa-solid fa-bullseye"></i></div>
+        <h3>Landing Pages</h3>
+        <p>High-converting pages tailored for your brand and optimized for leads.</p>
+        <div class="svc-tools">Framer · Carrd · Webflow</div>
+      </div>
+      <div class="svc-card tilt-card reveal reveal-delay-4">
+        <div class="card-shine"></div>
+        <div class="svc-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+        <h3>Custom Solutions</h3>
+        <p>Internal tools, dashboards, and products built to your spec.</p>
+        <div class="svc-tools">Notion · Airtable · Softr</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="light-alt-bg" id="how-it-works">
+  <div class="container">
+    <h2 class="section-title reveal" style="color:var(--text-light)">How It <span class="gradient-text">Works</span></h2>
+    <p class="section-sub reveal">Simple, transparent, and beginner-friendly.</p>
+    <div class="timeline">
+      <div class="timeline-item reveal reveal-delay-1">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="step-num">01</span>
+          <h3>Tell Us Your Idea</h3>
+          <p>DM us on Instagram or email. Share your vision — no tech language needed.</p>
+        </div>
+      </div>
+      <div class="timeline-item reveal reveal-delay-2">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="step-num">02</span>
+          <h3>We Design & Build</h3>
+          <p>We craft your project using modern no-code tools, keeping you updated.</p>
+        </div>
+      </div>
+      <div class="timeline-item reveal reveal-delay-3">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="step-num">03</span>
+          <h3>Review & Refine</h3>
+          <p>You review. We refine until you're 100% happy — your feedback drives everything.</p>
+        </div>
+      </div>
+      <div class="timeline-item reveal reveal-delay-4">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="step-num">04</span>
+          <h3>Launch & Celebrate 🎉</h3>
+          <p>Your project goes live! We support you through launch and beyond.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<section class="cta-banner">
+  <div class="container">
+    <div class="cta-inner reveal">
+      <h2>Ready to build your dream project? 🚀</h2>
+      <p>No coding needed. No hefty budgets. Just results.</p>
+      <a href="#contact" class="btn btn-primary btn-glow-pulse">Let's Talk <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="dark-bg-2" id="pricing">
+  <div class="container">
+    <h2 class="section-title reveal">Simple <span class="gradient-text">Pricing</span></h2>
+    <p class="section-sub reveal">Transparent pricing for every budget. No hidden fees, ever.</p>
+    <div class="pricing-grid">
+      <div class="pricing-card tilt-card reveal reveal-delay-1">
+        <div class="card-shine"></div>
+        <div class="pricing-header">
+          <h3>Starter</h3>
+          <div class="price">₹2,999<span>/project</span></div>
+        </div>
+        <ul class="pricing-features">
+          <li><i class="fa-solid fa-check"></i> Single landing page</li>
+          <li><i class="fa-solid fa-check"></i> Mobile responsive</li>
+          <li><i class="fa-solid fa-check"></i> 2 revisions</li>
+          <li><i class="fa-solid fa-check"></i> 3-day delivery</li>
+          <li><i class="fa-solid fa-check"></i> Basic SEO</li>
+        </ul>
+        <a href="#contact" class="btn btn-ghost" style="color:var(--primary);border-color:var(--primary);">Get Started</a>
+      </div>
+      <div class="pricing-card pricing-popular tilt-card reveal reveal-delay-2">
+        <div class="card-shine"></div>
+        <div class="popular-badge">Most Popular ⭐</div>
+        <div class="pricing-header">
+          <h3>Professional</h3>
+          <div class="price">₹7,999<span>/project</span></div>
+        </div>
+        <ul class="pricing-features">
+          <li><i class="fa-solid fa-check"></i> Multi-page website</li>
+          <li><i class="fa-solid fa-check"></i> Mobile responsive</li>
+          <li><i class="fa-solid fa-check"></i> 5 revisions</li>
+          <li><i class="fa-solid fa-check"></i> 5-day delivery</li>
+          <li><i class="fa-solid fa-check"></i> Contact form setup</li>
+          <li><i class="fa-solid fa-check"></i> Animations & effects</li>
+        </ul>
+        <a href="#contact" class="btn btn-primary">Get Started</a>
+      </div>
+      <div class="pricing-card tilt-card reveal reveal-delay-3">
+        <div class="card-shine"></div>
+        <div class="pricing-header">
+          <h3>Custom</h3>
+          <div class="price">Let's Talk<span></span></div>
+        </div>
+        <ul class="pricing-features">
+          <li><i class="fa-solid fa-check"></i> Full custom build</li>
+          <li><i class="fa-solid fa-check"></i> Automations included</li>
+          <li><i class="fa-solid fa-check"></i> Unlimited revisions</li>
+          <li><i class="fa-solid fa-check"></i> Priority delivery</li>
+          <li><i class="fa-solid fa-check"></i> Ongoing support</li>
+          <li><i class="fa-solid fa-check"></i> Everything in Pro</li>
+        </ul>
+        <a href="#contact" class="btn btn-ghost" style="color:var(--primary);border-color:var(--primary);">Contact Us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section class="light-alt-bg" id="why">
+  <div class="container">
+    <h2 class="section-title reveal" style="color:var(--text-light)">Why <span class="gradient-text">Choose Us</span></h2>
+    <p class="section-sub reveal">We're hungry, dedicated, and obsessed with delivering great work.</p>
+    <div class="grid-4">
+      <div class="why-card reveal reveal-delay-1"><div class="why-emoji">⚡</div><h3>Fast Delivery</h3><p>Projects live in days, not months.</p></div>
+      <div class="why-card reveal reveal-delay-2"><div class="why-emoji">💰</div><h3>Affordable</h3><p>Premium quality at startup-friendly prices.</p></div>
+      <div class="why-card reveal reveal-delay-3"><div class="why-emoji">🤝</div><h3>Beginner Friendly</h3><p>Zero jargon, pure results.</p></div>
+      <div class="why-card reveal reveal-delay-4"><div class="why-emoji">🎯</div><h3>Modern Design</h3><p>Startup-grade aesthetics from day one.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- SHOWCASE -->
+<section class="dark-bg" id="showcase">
+  <div class="container">
+    <h2 class="section-title reveal">What We Can <span class="gradient-text">Build</span></h2>
+    <p class="section-sub reveal">A glimpse into the types of projects we create.</p>
+    <div class="showcase-grid">
+      <div class="showcase-item tilt-card reveal reveal-delay-1"><div class="card-shine"></div><div class="showcase-icon-wrap"><i class="fa-solid fa-store"></i></div><div><h3>Business Websites</h3><p>Professional sites for startups and agencies.</p></div></div>
+      <div class="showcase-item tilt-card reveal reveal-delay-2"><div class="card-shine"></div><div class="showcase-icon-wrap"><i class="fa-solid fa-cart-shopping"></i></div><div><h3>E-Commerce Stores</h3><p>Online stores with payment integration.</p></div></div>
+      <div class="showcase-item tilt-card reveal reveal-delay-3"><div class="card-shine"></div><div class="showcase-icon-wrap"><i class="fa-solid fa-chart-line"></i></div><div><h3>Dashboards</h3><p>Client portals and internal data views.</p></div></div>
+      <div class="showcase-item tilt-card reveal reveal-delay-4"><div class="card-shine"></div><div class="showcase-icon-wrap"><i class="fa-solid fa-gears"></i></div><div><h3>Automations</h3><p>Email flows, social posting, data syncing.</p></div></div>
+      <div class="showcase-item tilt-card reveal reveal-delay-1"><div class="card-shine"></div><div class="showcase-icon-wrap"><i class="fa-solid fa-mobile-screen"></i></div><div><h3>Landing Pages</h3><p>Conversion-focused pages for campaigns.</p></div></div>
+      <div class="showcase-item tilt-card reveal reveal-delay-2"><div class="card-shine"></div><div class="showcase-icon-wrap"><i class="fa-solid fa-user-tie"></i></div><div><h3>Portfolios</h3><p>Personal brand sites for creators.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- TOOLS MARQUEE -->
+<section class="dark-bg-2" id="tools" style="padding:4rem 0;">
+  <div class="container">
+    <h2 class="section-title reveal">Tools We <span class="gradient-text">Love</span></h2>
+    <div class="tools-marquee reveal">
+      <div class="marquee-track">
+        <span class="tool-badge">Webflow</span><span class="tool-badge">Framer</span><span class="tool-badge">Notion</span><span class="tool-badge">Airtable</span><span class="tool-badge">Zapier</span><span class="tool-badge">Make</span><span class="tool-badge">Figma</span><span class="tool-badge">Carrd</span><span class="tool-badge">Softr</span><span class="tool-badge">Canva</span><span class="tool-badge">Shopify</span><span class="tool-badge">n8n</span>
+        <span class="tool-badge">Webflow</span><span class="tool-badge">Framer</span><span class="tool-badge">Notion</span><span class="tool-badge">Airtable</span><span class="tool-badge">Zapier</span><span class="tool-badge">Make</span><span class="tool-badge">Figma</span><span class="tool-badge">Carrd</span><span class="tool-badge">Softr</span><span class="tool-badge">Canva</span><span class="tool-badge">Shopify</span><span class="tool-badge">n8n</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="light-alt-bg" id="faq">
+  <div class="container">
+    <h2 class="section-title reveal" style="color:var(--text-light)">Got <span class="gradient-text">Questions?</span></h2>
+    <p class="section-sub reveal">Here are answers to the most common ones.</p>
+    <div class="faq-list">
+      <details class="faq-item reveal"><summary>What is "no-code" development?</summary><p>No-code means building websites, apps, and automations using visual tools — drag-and-drop — without writing traditional code. It's faster, cheaper, and powerful for most use cases.</p></details>
+      <details class="faq-item reveal"><summary>How much does a project cost?</summary><p>Starter projects begin at ₹2,999. Check our pricing section above for transparent tiers, or DM us for a custom quote — no commitment!</p></details>
+      <details class="faq-item reveal"><summary>How long does a project take?</summary><p>Most projects are delivered within 3–7 days. Complex builds may take longer, but we always give you a clear timeline upfront.</p></details>
+      <details class="faq-item reveal"><summary>Will I be able to edit my site myself?</summary><p>Absolutely! We use platforms that are easy to manage and walk you through everything so you feel confident.</p></details>
+      <details class="faq-item reveal"><summary>I'm not technical at all — is that okay?</summary><p>100%! That's exactly who we built this for. We handle everything technical and explain it all in simple language.</p></details>
+      <details class="faq-item reveal"><summary>Do you offer ongoing support?</summary><p>Yes! We offer post-launch support to help with updates, fixes, and new features as your business grows.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER 2 -->
+<section class="cta-banner cta-banner-2">
+  <div class="container">
+    <div class="cta-inner reveal">
+      <h2>Your next big idea is one message away ✨</h2>
+      <div class="cta-btns">
+        <a href="https://www.instagram.com/buildybuddy?igsh=OWMxZTAybjNwcXlz&utm_source=qr" target="_blank" class="btn btn-primary btn-glow-pulse"><i class="fa-brands fa-instagram"></i> DM on Instagram</a>
+        <a href="mailto:aksasidhar08@gmail.com" class="btn btn-ghost"><i class="fa-solid fa-envelope"></i> Email Us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="dark-bg contact-section" id="contact">
+  <div class="contact-glow"></div>
+  <div class="contact-glow-2"></div>
+  <div class="container">
+    <div class="contact-box reveal">
+      <h2>Let's Build Something <span class="gradient-text">Awesome</span> 🔥</h2>
+      <p>Ready to turn your idea into reality? We're just a message away.</p>
+      <div class="contact-links">
+        <a href="https://www.instagram.com/buildybuddy?igsh=OWMxZTAybjNwcXlz&utm_source=qr" target="_blank" class="contact-method"><i class="fa-brands fa-instagram"></i><span>@BuildyBuddy</span></a>
+        <a href="mailto:aksasidhar08@gmail.com" class="contact-method"><i class="fa-solid fa-envelope"></i><span>aksasidhar08@gmail.com</span></a>
+      </div>
+      <a href="https://www.instagram.com/buildybuddy?igsh=OWMxZTAybjNwcXlz&utm_source=qr" target="_blank" class="btn btn-primary btn-glow-pulse" style="margin-top:1.5rem;">
+        Send us a message <i class="fa-solid fa-paper-plane"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container footer-inner">
+    <a href="#" class="footer-logo">⚡ BuildyBuddy</a>
+    <div class="footer-links">
+      <a href="#about">About</a><a href="#services">Services</a><a href="#pricing">Pricing</a><a href="#contact">Contact</a>
+    </div>
+    <small>&copy; 2026 BuildyBuddy. All rights reserved.</small>
+  </div>
+</footer>
+
+<!-- Back to Top -->
+<button class="back-to-top" id="backToTop"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="script.js"></script>
+</body>
+</html>
